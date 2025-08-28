@@ -26,7 +26,6 @@
       overflow-x: hidden;
     }
 
-    /* Animated fog background canvas */
     #bgCanvas {
       position: fixed;
       top: 0;
@@ -261,7 +260,6 @@
       box-shadow: 0 0 20px var(--p3-cyan);
     }
 
-    /* Contact section base */
     #contact {
       padding: 4rem 2rem;
       text-align: center;
@@ -271,7 +269,6 @@
       overflow: hidden;
     }
 
-    /* Animated heading */
     #contact h2 {
       font-size: 2.5rem;
       margin-bottom: 1.5rem;
@@ -285,7 +282,6 @@
       100% { transform: translateY(0) scale(1); opacity: 1;}
     }
 
-    /* Text fade-in */
     .contact-text {
       font-size: 1.2rem;
       margin-bottom: 2rem;
@@ -299,7 +295,6 @@
       to { transform: translateY(0); opacity: 1; }
     }
 
-    /* Contact links */
     .contact-links {
       display: flex;
       justify-content: center;
@@ -329,7 +324,6 @@
       to { transform: translateY(0) skewX(0deg); opacity: 1; }
     }
 
-    /* Hover effect with Persona glow */
     .contact-link:hover {
       background: var(--p3-cyan);
       color: var(--p3-dark);
@@ -399,7 +393,6 @@
 
   </div>
 
-  <!-- Canvas Fog Script -->
   <script>
     const canvas = document.getElementById("bgCanvas");
     const ctx = canvas.getContext("2d");
